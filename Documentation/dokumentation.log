@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.22)  23 MAR 2019 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.26)  23 MAR 2019 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2136,60 +2136,105 @@ Package pdftex.def Info: ../Graphiken/v_vs_r.png  used on input line 131.
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 
 [6 <../Graphiken/v_vs_r.png>]
 chapter 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-<../Graphiken/TireSimRandomMain.pdf, id=70, 340.49075pt x 611.34924pt>
-File: ../Graphiken/TireSimRandomMain.pdf Graphic file (type pdf)
-<use ../Graphiken/TireSimRandomMain.pdf>
-Package pdftex.def Info: ../Graphiken/TireSimRandomMain.pdf  used on input line
- 9.
-(pdftex.def)             Requested size: 371.86012pt x 667.64186pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../Graphiken/Simulink2.png, id=71, 1019.81pt x 337.26pt>
-File: ../Graphiken/Simulink2.png Graphic file (type png)
-<use ../Graphiken/Simulink2.png>
-Package pdftex.def Info: ../Graphiken/Simulink2.png  used on input line 16.
-(pdftex.def)             Requested size: 455.24417pt x 150.55624pt.
-<../Graphiken/Simulink3.png, id=72, 716.6775pt x 182.6825pt>
-File: ../Graphiken/Simulink3.png Graphic file (type png)
-<use ../Graphiken/Simulink3.png>
-Package pdftex.def Info: ../Graphiken/Simulink3.png  used on input line 23.
-(pdftex.def)             Requested size: 455.24417pt x 116.0439pt.
-<../Graphiken/Simulink4.png, id=73, 604.2575pt x 382.42876pt>
-File: ../Graphiken/Simulink4.png Graphic file (type png)
-<use ../Graphiken/Simulink4.png>
-Package pdftex.def Info: ../Graphiken/Simulink4.png  used on input line 30.
-(pdftex.def)             Requested size: 455.24417pt x 288.12215pt.
-) (./content/D5.tex
+(babel)             in language  on input line 4.
+<../Graphiken/DrivingDistances1.png, id=70, 1594.95876pt x 655.44875pt>
+File: ../Graphiken/DrivingDistances1.png Graphic file (type png)
+<use ../Graphiken/DrivingDistances1.png>
+Package pdftex.def Info: ../Graphiken/DrivingDistances1.png  used on input line
+ 11.
+(pdftex.def)             Requested size: 455.24417pt x 187.07486pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
- [7
+(babel)             in language  on input line 15.
+[7
 
-]
+ <../Graphiken/DrivingDistances1.png>]
+<../Graphiken/DrivingDistances.png, id=80, 2631.8325pt x 959.585pt>
+File: ../Graphiken/DrivingDistances.png Graphic file (type png)
+<use ../Graphiken/DrivingDistances.png>
+Package pdftex.def Info: ../Graphiken/DrivingDistances.png  used on input line 
+18.
+(pdftex.def)             Requested size: 455.24417pt x 165.98248pt.
+<../Graphiken/PDFSplit/3_PDFsam_SebastianTireSim2.pdf, id=84, 606.70813pt x 113
+.39003pt>
+File: ../Graphiken/PDFSplit/3_PDFsam_SebastianTireSim2.pdf Graphic file (type p
+df)
+<use ../Graphiken/PDFSplit/3_PDFsam_SebastianTireSim2.pdf>
+Package pdftex.def Info: ../Graphiken/PDFSplit/3_PDFsam_SebastianTireSim2.pdf  
+used on input line 27.
+(pdftex.def)             Requested size: 455.24417pt x 85.08382pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--33
+
+ []
+
+<../Graphiken/TireSimCurvesLandscape.pdf, id=87, 614.295pt x 794.97pt>
+File: ../Graphiken/TireSimCurvesLandscape.pdf Graphic file (type pdf)
+<use ../Graphiken/TireSimCurvesLandscape.pdf>
+Package pdftex.def Info: ../Graphiken/TireSimCurvesLandscape.pdf  used on input
+ line 36.
+(pdftex.def)             Requested size: 515.9199pt x 667.64186pt.
+
+Overfull \hbox (60.67574pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
+
+
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 40.
+
+[8 <../Graphiken/DrivingDistances.png (PNG copy)> <../Graphiken/PDFSplit/3_PDFs
+am_SebastianTireSim2.pdf>]
+<../Graphiken/CurvesTireMonitor.png, id=113, 2059.695pt x 1202.4925pt>
+File: ../Graphiken/CurvesTireMonitor.png Graphic file (type png)
+<use ../Graphiken/CurvesTireMonitor.png>
+Package pdftex.def Info: ../Graphiken/CurvesTireMonitor.png  used on input line
+ 45.
+(pdftex.def)             Requested size: 432.48056pt x 252.47583pt.
+
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 47.
+
+[9 <../Graphiken/TireSimCurvesLandscape.pdf, page is rotated 270 degrees>])
+(./content/D5.tex
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2201,26 +2246,13 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
 
-[8 <../Graphiken/TireSimRandomMain.pdf, page is rotated 270 degrees>]
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-
-[9 <../Graphiken/Simulink2.png> <../Graphiken/Simulink3.png> <../Graphiken/Simu
-link4.png>]
+[10 <../Graphiken/CurvesTireMonitor.png (PNG copy)>]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
-<../Graphiken/Simulink5.png, id=119, 1050.92625pt x 477.785pt>
+<../Graphiken/Simulink5.png, id=139, 1050.92625pt x 477.785pt>
 File: ../Graphiken/Simulink5.png Graphic file (type png)
 <use ../Graphiken/Simulink5.png>
 Package pdftex.def Info: ../Graphiken/Simulink5.png  used on input line 12.
@@ -2234,7 +2266,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
- [10
+ [11
 
  <../Graphiken/Simulink5.png>]
 chapter 4.
@@ -2242,20 +2274,20 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
-<../Graphiken/Model.png, id=128, 525.08672pt x 534.12047pt>
+<../Graphiken/Model.png, id=148, 525.08672pt x 534.12047pt>
 File: ../Graphiken/Model.png Graphic file (type png)
 <use ../Graphiken/Model.png>
 Package pdftex.def Info: ../Graphiken/Model.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24417pt x 463.0918pt.
-<../Graphiken/ErrorModule.png, id=129, 672.26157pt x 289.08pt>
+<../Graphiken/ErrorModule.png, id=149, 383.18156pt x 151.3153pt>
 File: ../Graphiken/ErrorModule.png Graphic file (type png)
 <use ../Graphiken/ErrorModule.png>
 Package pdftex.def Info: ../Graphiken/ErrorModule.png  used on input line 14.
-(pdftex.def)             Requested size: 455.24417pt x 195.76016pt.
+(pdftex.def)             Requested size: 455.24417pt x 179.78345pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/RandomGenerator.png, id=130, 889.07156pt x 525.83954pt>
+<../Graphiken/RandomGenerator.png, id=150, 889.07156pt x 525.83954pt>
 File: ../Graphiken/RandomGenerator.png Graphic file (type png)
 <use ../Graphiken/RandomGenerator.png>
 Package pdftex.def Info: ../Graphiken/RandomGenerator.png  used on input line 2
@@ -2264,7 +2296,7 @@ Package pdftex.def Info: ../Graphiken/RandomGenerator.png  used on input line 2
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/Reset.png, id=131, 696.72797pt x 398.99063pt>
+<../Graphiken/Reset.png, id=151, 696.72797pt x 398.99063pt>
 File: ../Graphiken/Reset.png Graphic file (type png)
 <use ../Graphiken/Reset.png>
 Package pdftex.def Info: ../Graphiken/Reset.png  used on input line 28.
@@ -2272,7 +2304,7 @@ Package pdftex.def Info: ../Graphiken/Reset.png  used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/ResetStateMachine.png, id=132, 785.93625pt x 473.89546pt>
+<../Graphiken/ResetStateMachine.png, id=152, 785.93625pt x 473.89546pt>
 File: ../Graphiken/ResetStateMachine.png Graphic file (type png)
 <use ../Graphiken/ResetStateMachine.png>
 Package pdftex.def Info: ../Graphiken/ResetStateMachine.png  used on input line
@@ -2281,7 +2313,7 @@ Package pdftex.def Info: ../Graphiken/ResetStateMachine.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/SOS_state.png, id=133, 634.62094pt x 522.07547pt>
+<../Graphiken/SOS_state.png, id=153, 634.62094pt x 522.07547pt>
 File: ../Graphiken/SOS_state.png Graphic file (type png)
 <use ../Graphiken/SOS_state.png>
 Package pdftex.def Info: ../Graphiken/SOS_state.png  used on input line 42.
@@ -2289,7 +2321,7 @@ Package pdftex.def Info: ../Graphiken/SOS_state.png  used on input line 42.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/TireMean.png, id=134, 730.98094pt x 238.26515pt>
+<../Graphiken/TireMean.png, id=154, 730.98094pt x 238.26515pt>
 File: ../Graphiken/TireMean.png Graphic file (type png)
 <use ../Graphiken/TireMean.png>
 Package pdftex.def Info: ../Graphiken/TireMean.png  used on input line 49.
@@ -2306,7 +2338,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 61.
- [11
+ [12
 
  <../Graphiken/Model.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
@@ -2320,7 +2352,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 61.
 
-[12 <../Graphiken/ErrorModule.png> <../Graphiken/RandomGenerator.png>]
+[13 <../Graphiken/ErrorModule.png> <../Graphiken/RandomGenerator.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2332,7 +2364,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 61.
 
-[13 <../Graphiken/Reset.png> <../Graphiken/ResetStateMachine.png>]
+[14 <../Graphiken/Reset.png> <../Graphiken/ResetStateMachine.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2344,7 +2376,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 61.
 
-[14 <../Graphiken/SOS_state.png> <../Graphiken/TireMean.png>]
+[15 <../Graphiken/SOS_state.png> <../Graphiken/TireMean.png>]
 No complaints by nag.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
@@ -2356,13 +2388,13 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48050 strings out of 492649
- 909540 string characters out of 6129621
- 1559508 words of memory out of 5000000
- 51050 multiletter control sequences out of 15000+600000
- 566155 words of font info for 73 fonts, out of 8000000 for 9000
+ 48059 strings out of 492649
+ 910013 string characters out of 6129622
+ 1559492 words of memory out of 5000000
+ 51053 multiletter control sequences out of 15000+600000
+ 566246 words of font info for 74 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,8n,80p,10400b,2267s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,8n,80p,10400b,2269s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/texmf-dist/
@@ -2378,10 +2410,10 @@ c/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro12.
 pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on dokumentation.pdf (14 pages, 750130 bytes).
+Output written on dokumentation.pdf (15 pages, 915310 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 12954 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 12959 words of extra memory for PDF output out of 14400 (max. 10000000)
 
