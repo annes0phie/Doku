@@ -1,3 +1,281 @@
 
 \chapter{Aufgabe D8}
-Hier werden die Codes der Unit-Tests für alle vorhandenen Funktionalitäten dargestellt.
+Hier werden die Codes der Unittests für die Funktionalitäten dargestellt.
+\section{Model}
+\begin{lstlisting}
+package components;
+import assertLib.Assert;
+import components.Globals;
+import components.Model;
+static class ModelTest {
+	real myDT = Globals.d_T;
+	real vfr;
+	real vrr;
+	real vfl;
+	real vrl;
+	Model m;
+	
+	
+	@Test
+	public void distanceIncreasing(){
+		myDT = 1.0;
+		vfr = 10.0;
+		vrr = 10.0;
+		vfl = 10.0;
+		vrl = 10.0;
+		m.calc(vfr, vrr, vfl, vrl, myDT);
+		Assert.assertTrue(m.getSfl() > 0.0);
+		Assert.assertTrue(m.getSrl() > 0.0);
+		Assert.assertTrue(m.getSfr() > 0.0);
+		Assert.assertTrue(m.getSrr() > 0.0);
+	}
+	
+	@Test
+	public void predictDistance(){
+		myDT = 1.0;
+		vfr = 10.0;
+		vrr = 10.0;
+		vfl = 10.0;
+		vrl = 10.0;
+		m.calc(vfr, vrr, vfl, vrl, myDT);
+	}
+	
+	@Test
+	public void deltasConsistentForSameVelocity(){
+		real s_return;
+		real buffer_time = 10.0; 
+		myDT = 0.01;
+		vfr = 10.0;
+		vrr = 10.0;
+		vfl = 10.0;
+		vrl = 10.0;
+	
+		for(i in 1 .. 50000){
+			m.calc(vfr, vrr, vfl, vrl, myDT);
+		}
+		Assert.assertNear(m.getDiff_sfr(), vfr*buffer_time, 0.1);
+		Assert.assertNear(m.getDiff_sfl(), vfl*buffer_time, 0.1);
+		Assert.assertNear(m.getDiff_srl(), vrl*buffer_time, 0.1);
+		Assert.assertNear(m.getDiff_srr(), vrr*buffer_time, 0.1);
+	} 
+}
+\end{lstlisting}
+
+\section{Error Module}
+\begin{lstlisting}
+package components;
+import assertLib.Assert;
+import components.Globals;
+import components.Model;
+static class ErrorModuleTest {
+	ErrorModule cd;
+		
+	@Test
+	public void deflation(){
+		real v = 10.0;
+		real error = 0.5;
+		real deflated_v = cd.calc(true, v, error);
+		Assert.assertNear(deflated_v, v*(1.0-(error/100.0)), 0.1);
+	}
+	
+	@Test
+	public void noDeflation(){
+		real v = 10.0;
+		real error = 0.5;
+		real same_v = cd.calc(false, v, error);
+		Assert.assertNear(same_v, v, 0.1);
+	}
+}
+\end{lstlisting}
+
+\section{Ring Buffer}
+\begin{lstlisting}
+package components;
+import assertLib.Assert;
+import components.Globals;
+import components.Model;
+static class RingBufferTest {
+	RingBuffer rb;
+	
+	
+	@Test
+	public void start_with_empty_buffer(){
+		for(i in 0 .. 999){
+		Assert.assertNear(rb.getIndex(i),0.0,0.01);
+		}
+	}
+	
+	@Test
+	public void fill_buffer_decending(){
+		real fill_element = 0.0;
+		integer buffer_maxIndex = 999;
+		for(i in 0 .. 999){
+			rb.put(fill_element);
+			fill_element = fill_element + 1.0;
+		}
+		for(n in 0 .. 999)
+		{
+			Assert.assertNear(rb.getIndex(n),real(buffer_maxIndex),0.01);
+			buffer_maxIndex = buffer_maxIndex - 1;
+		}
+	}
+	
+	@Test
+	public void read_last_element(){
+		real fill_element = 0.0;
+		for(i in 0 .. 999){
+			rb.put(fill_element);
+			fill_element = fill_element + 1.0;
+		}
+		Assert.assertNear(rb.getIndex(999),real(0),0.01);
+	}
+}
+\end{lstlisting}
+
+\section{SOS State}
+Für die Statemachine \glqq SOS State" wurden drei Unittests durchgeführt.\\
+In \glqq checkAllStatelocationsAndStatesActiveContinues"' wird der Parameter active = true gesetzt und bleibt über den gesamten Test auf true. Ist active = true so ist ein Fehler aufgetreten und der Off-State wird verlassen. In diesem Test werden alle Stati nacheinander durchlaufen, wie in R3 beschrieben. Nach jedem Statuswechsel wird anhand der Zeit überprüft, ob gerade der richtige Status aktiv ist. Nachdem der Zyklus einmal durchlaufen wurde, wird getestet, ob der Zyklus wieder von vorne beginnt, da active immer noch auf true ist.\\
+In \glqq checkAllStatelocationsActiveContinuesNot()"' wird der ganze Zyklus durchlaufen. Währenddessen wird active auf false gesetzt. Am Ende wird überpürft, ob man sich nach Abschluss des Zyklus im Off-Status befindet.\\
+In \glqq checkAllStatesDeactiv()"' ist der Parameter active=false. Es wird hier nach einer bestimmten Zeit überprüft, ob der Off-Status aktiv ist.
+
+\begin{lstlisting}
+package components;
+import assertLib.Assert;
+import components.Globals;
+import components.SOS_state;
+static class Test_SOS_state {
+	integer counter = 0;
+	SOS_state sos;
+	
+	//Der Wechsel eines States beansprucht 10ms zusätzlich
+	//wurde in die Berechnung der Zeit für die Stati aufgenommen
+	@Test
+	public void checkAllStatelocationsAndStatesActiveContinues(){
+		...
+	}
+	
+	@Test
+	public void checkAllStatelocationsActiveContinuesNot(){
+		...
+	}
+	
+	@Test
+	public void checkAllStatesDeactiv(){
+		...
+	}
+}
+\end{lstlisting}
+
+\section{Tire Deviation}
+\begin{lstlisting}
+package components;
+import assertLib.Assert;
+import components.Globals;
+import components.Model;
+static class TireDeviationTest {
+	TireDeviation td;
+	
+	@Test
+	public void noDeviationWhileCalibration(){
+		real v = 100.04;
+		real v_mean = 100.0;
+		real limit = 0.05;
+		boolean noFailure = true;
+		Assert.assertTrue(td.calc(v, v_mean, limit,noFailure)==false);
+	}
+	
+	@Test
+	public void highDeviationWhileCalibration(){
+		real v = 100.06;
+		real v_mean = 100.0;
+		real limit = 0.05;
+		boolean noFailure = true;
+		Assert.assertTrue(td.calc(v, v_mean, limit,noFailure)==false);
+	}
+
+	@Test
+	public void lowDeviationWhileCalibration(){
+		real v = 99.94;
+		real v_mean = 100.0;
+		real limit = 0.05;
+		boolean noFailure = true;
+		Assert.assertTrue(td.calc(v, v_mean, limit,noFailure)==false);
+	}
+	
+	@Test
+	public void noDeviation(){
+		real v = 100.04;
+		real v_mean = 100.0;
+		real limit = 0.05;
+		boolean noFailure = false;
+		Assert.assertTrue(td.calc(v, v_mean, limit,noFailure)==false);
+	}
+	
+	@Test
+	public void highDeviation(){
+		real v = 100.06;
+		real v_mean = 100.0;
+		real limit = 0.05;
+		boolean noFailure = false;
+		Assert.assertTrue(td.calc(v, v_mean, limit,noFailure)==true);
+	}
+
+	@Test
+	public void lowDeviation(){
+		real v = 99.94;
+		real v_mean = 100.0;
+		real limit = 0.05;
+		boolean noFailure = false;
+		Assert.assertTrue(td.calc(v, v_mean, limit,noFailure)==true);
+	}
+}
+\end{lstlisting}
+
+\section{Tire Mean}
+\begin{lstlisting}
+package components;
+import assertLib.Assert;
+import components.Globals;
+import components.Model;
+static class TireMeanTest {
+	TireMean m;
+	
+	
+	@Test
+	public void calcMeanAllValuesTheSame(){
+		real v1 = 50.0;
+		real mean = m.calc(v1, v1, v1,v1);
+		Assert.assertNear(mean, v1, 0.1);
+	}
+	
+	@Test
+	public void calcMean(){
+		real v1 = 50.0;
+		real v2 = 15.0;
+		real v3 = 75.0;
+		real v4 = 100.5;
+		real mean = m.calc(v1, v2, v3,v4);
+		Assert.assertNear(mean, 60.13, 0.1);
+	}
+	
+	@Test
+	public void calcMeanNegativ(){
+		real v1 = -50.0;
+		real v2 = -15.0;
+		real v3 = -75.0;
+		real v4 = -100.5;
+		real mean = m.calc(v1, v2, v3,v4);
+		Assert.assertNear(mean,-60.13, 0.1);
+	}
+	
+	@Test
+	public void calcMeanMixed(){
+		real v1 = -50.0;
+		real v2 = -15.5;
+		real v3 = 50.0;
+		real v4 = 15.5;
+		real mean = m.calc(v1, v2, v3,v4);
+		Assert.assertNear(mean,0.0, 0.1);
+	}
+}
+\end{lstlisting}
