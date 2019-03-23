@@ -1,7 +1,32 @@
 
 \chapter{Aufgabe D7}
-Die folgenden Graphiken zeigen die Umsetzung des Simulink Modells in ASCET.
+Die folgenden Graphiken zeigen die Umsetzung des Simulink Modells in ASCET. Die \autoref{fig:Model} berechnet die Strecken der einzelnen Räder. Dafür wird ein RingBuffer mit Werten befüllt. Dieser wurde mit folgendem Code umgesetzt:\\
+\begin{lstlisting}
+package components;
+class RingBuffer{
 
+s_array buffer[1000];    
+real c;
+real swap;
+
+public void put(real element){
+	swap = element;
+	for(i in 0 .. 999){
+		c = buffer[i];
+		buffer[i] = swap;
+		swap = c;
+	}
+}
+
+public real getLast(){
+return buffer[999];
+}
+
+public real getIndex(integer i){
+	return buffer[i];
+	}
+}
+\end{lstlisting}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{../Graphiken/Model.png}
@@ -9,18 +34,23 @@ Die folgenden Graphiken zeigen die Umsetzung des Simulink Modells in ASCET.
 	\label{fig:Model}
 \end{figure}
 
+Die \autoref{fig:TireMean} zeigt die Berechnung des Durchschnitts der vier Strecken.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{../Graphiken/TireMean.png}
+	\caption{Tire Mean}
+	\label{fig:TireMean}
+\end{figure}
+
+\pagebreak
+
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{../Graphiken/ErrorModule.png}
 	\caption{Error Module}
 	\label{fig:ErrorModule}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\linewidth]{../Graphiken/RandomGenerator.png}
-	\caption{Random Number Generator}
-	\label{fig:RandomGenerator}
 \end{figure}
 
 \begin{figure}[h!]
@@ -36,18 +66,3 @@ Die folgenden Graphiken zeigen die Umsetzung des Simulink Modells in ASCET.
 	\caption{Reset Statemachine}
 	\label{fig:ResetStateMachine}
 \end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\linewidth]{../Graphiken/SOS_state.png}
-	\caption{SOS Statemachine}
-	\label{fig:SOS_state}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\linewidth]{../Graphiken/TireMean.png}
-	\caption{Tire Mean}
-	\label{fig:TireMean}
-\end{figure}
-
