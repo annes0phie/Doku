@@ -45,6 +45,20 @@ Die \autoref{fig:TireMean} zeigt die Berechnung des Durchschnitts der vier Strec
 
 \pagebreak
 Die \autoref{fig:RandomGenerator} zeigt den \glqq Random Number Generator"' umgesetzt in ASCET.
+Der anschließende Code zeigt, wie die Parameter a, m und c initialisiert wurden. Bei der Codegenerierung mit m = $2^{31}$ ist ein Fehler aufgetreten. Die Vermutung ist, dass dieser Wert zu groß ist. Deshalb wurde m auf $2^{10}$ gesetzt.\\
+\begin{lstlisting}
+class RandomGenerator {
+	characteristic myint a = 89;
+	characteristic myint m = 1024;
+	characteristic myint c = 251;
+	myint seed;
+	myint x = 0;
+	@generated("blockdiagram")
+	public real calc(real in set_vel, real in noiselevel, integer in mySeed) {
+		...
+	}
+}
+\end{lstlisting}
 
 \begin{figure}[h!]
 	\centering
