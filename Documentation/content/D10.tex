@@ -1,17 +1,8 @@
 
 \chapter{Aufgabe D10}
 
-
-Die \autoref{fig:RandomGenerator} zeigt den \glqq Random Number Generator"' umgesetzt in ASCET.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\linewidth]{../Graphiken/RandomGenerator.png}
-	\caption{Random Number Generator}
-	\label{fig:RandomGenerator}
-\end{figure}
-
 Der Code des Unittests für den \glqq Random Number Generator"' wird im Folgenden dargestellt.
+%TODO-- Code Ausschnitt für setzen von a,...
 
 \begin{lstlisting}
 package components;
@@ -22,7 +13,7 @@ static class RandomGeneratorTest {
 	RingBuffer rb;
 	
 	@Test
-	public void testcalc() {
+	public void generateFirstDatastep() {
 		real set_vel = 100.0;
 		real noiselevel = 5.0;
 		integer mySeed = 10;
@@ -31,7 +22,7 @@ static class RandomGeneratorTest {
 	}
 	
 	@Test
-	public void testcalc2() {
+	public void generateDifferentNumbers() {
 		real set_vel = 100.0;
 		real noiselevel = 5.0;
 		integer mySeed = 10;
