@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.22)  23 MAR 2019 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.22)  23 MAR 2019 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1950,12 +1950,105 @@ Package biblatex Info: Reference segment=0 on input line 7.
 (./dokumentation.glsdefs)
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
 line 7.
- (./content/D2.tex
+<../Graphiken/Aufgabenstellung.pdf, id=7, 597.55246pt x 845.07718pt>
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf  used on input line 
+46.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf  used on input line 
+46.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+<../Graphiken/Aufgabenstellung.pdf, id=10, page=1, 597.55246pt x 845.07718pt>
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page1 used on inpu
+t line 46.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page1 used on inpu
+t line 46.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page1 used on inpu
+t line 46.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page1 used on inpu
+t line 46.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page1 used on inpu
+t line 46.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 46.
+ [1
+
+
+ <../Graphiken/Aufgabenstellung.pdf>]
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf  used on input line 
+47.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf  used on input line 
+47.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+<../Graphiken/Aufgabenstellung.pdf, id=63, page=2, 597.55246pt x 845.07718pt>
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 2>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page2 used on inpu
+t line 47.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 2>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page2 used on inpu
+t line 47.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 2>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page2 used on inpu
+t line 47.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 2>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page2 used on inpu
+t line 47.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ../Graphiken/Aufgabenstellung.pdf Graphic file (type pdf)
+<use ../Graphiken/Aufgabenstellung.pdf, page 2>
+Package pdftex.def Info: ../Graphiken/Aufgabenstellung.pdf , page2 used on inpu
+t line 47.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 47.
+ [2 <../Graphiken/Aufgabenstellung.pdf>] (./content/D2.tex
 chapter 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 1.
 
 Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Implementation of \float@addtolist became
@@ -1971,7 +2064,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 3.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1980,40 +2073,40 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 8.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 8.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 6.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <12> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 8.
-LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+(Font)              <6> on input line 6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2021,7 +2114,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2029,108 +2122,106 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 8--20
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 22.
-[1
-
-
+(babel)             in language  on input line 20.
+[3
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
-<../Graphiken/velo_ohneRand.png, id=25, 756.8275pt x 635.37375pt>
+(babel)             in language  on input line 21.
+<../Graphiken/velo_ohneRand.png, id=88, 756.8275pt x 635.37375pt>
 File: ../Graphiken/velo_ohneRand.png Graphic file (type png)
 <use ../Graphiken/velo_ohneRand.png>
-Package pdftex.def Info: ../Graphiken/velo_ohneRand.png  used on input line 29.
+Package pdftex.def Info: ../Graphiken/velo_ohneRand.png  used on input line 27.
 
 (pdftex.def)             Requested size: 455.24417pt x 382.187pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 42.
 
-[2 <../Graphiken/velo_ohneRand.png>]
-<../Graphiken/velo_vs_sw.png, id=37, 830.10126pt x 659.46375pt>
+[4 <../Graphiken/velo_ohneRand.png>]
+<../Graphiken/velo_vs_sw.png, id=100, 830.10126pt x 659.46375pt>
 File: ../Graphiken/velo_vs_sw.png Graphic file (type png)
 <use ../Graphiken/velo_vs_sw.png>
-Package pdftex.def Info: ../Graphiken/velo_vs_sw.png  used on input line 66.
+Package pdftex.def Info: ../Graphiken/velo_vs_sw.png  used on input line 64.
 (pdftex.def)             Requested size: 455.24417pt x 361.65967pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 81.
 
-[3 <../Graphiken/velo_vs_sw.png>]
-<../Graphiken/outter_vs_inner.png, id=46, 816.04875pt x 668.4975pt>
+[5 <../Graphiken/velo_vs_sw.png>]
+<../Graphiken/outter_vs_inner.png, id=109, 816.04875pt x 668.4975pt>
 File: ../Graphiken/outter_vs_inner.png Graphic file (type png)
 <use ../Graphiken/outter_vs_inner.png>
 Package pdftex.def Info: ../Graphiken/outter_vs_inner.png  used on input line 8
-7.
+5.
 (pdftex.def)             Requested size: 455.24417pt x 372.92798pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 89.
 
-[4 <../Graphiken/outter_vs_inner.png>]
-<../Graphiken/sorted_sw.png, id=54, 738.76pt x 616.3025pt>
+[6 <../Graphiken/outter_vs_inner.png>]
+<../Graphiken/sorted_sw.png, id=117, 738.76pt x 616.3025pt>
 File: ../Graphiken/sorted_sw.png Graphic file (type png)
 <use ../Graphiken/sorted_sw.png>
-Package pdftex.def Info: ../Graphiken/sorted_sw.png  used on input line 108.
+Package pdftex.def Info: ../Graphiken/sorted_sw.png  used on input line 106.
 (pdftex.def)             Requested size: 455.24417pt x 379.7808pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 125.
 
-[5
+[7
 
 
  <../Graphiken/sorted_sw.png>]
-<../Graphiken/v_vs_r.png, id=62, 744.7825pt x 618.31pt>
+<../Graphiken/v_vs_r.png, id=126, 744.7825pt x 618.31pt>
 File: ../Graphiken/v_vs_r.png Graphic file (type png)
 <use ../Graphiken/v_vs_r.png>
-Package pdftex.def Info: ../Graphiken/v_vs_r.png  used on input line 131.
+Package pdftex.def Info: ../Graphiken/v_vs_r.png  used on input line 129.
 (pdftex.def)             Requested size: 455.24417pt x 377.95161pt.
 ) (./content/D3.tex
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
@@ -2144,7 +2235,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
-[6 <../Graphiken/v_vs_r.png>]
+[8 <../Graphiken/v_vs_r.png>]
 chapter 2.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2154,7 +2245,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
-<../Graphiken/TireSimRandomMain.pdf, id=70, 340.49075pt x 611.34924pt>
+<../Graphiken/TireSimRandomMain.pdf, id=134, 340.49075pt x 611.34924pt>
 File: ../Graphiken/TireSimRandomMain.pdf Graphic file (type pdf)
 <use ../Graphiken/TireSimRandomMain.pdf>
 Package pdftex.def Info: ../Graphiken/TireSimRandomMain.pdf  used on input line
@@ -2163,21 +2254,63 @@ Package pdftex.def Info: ../Graphiken/TireSimRandomMain.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/Simulink2.png, id=71, 1019.81pt x 337.26pt>
+<../Graphiken/Simulink2.png, id=135, 1019.81pt x 337.26pt>
 File: ../Graphiken/Simulink2.png Graphic file (type png)
 <use ../Graphiken/Simulink2.png>
 Package pdftex.def Info: ../Graphiken/Simulink2.png  used on input line 16.
 (pdftex.def)             Requested size: 455.24417pt x 150.55624pt.
-<../Graphiken/Simulink3.png, id=72, 716.6775pt x 182.6825pt>
+<../Graphiken/Simulink3.png, id=136, 716.6775pt x 182.6825pt>
 File: ../Graphiken/Simulink3.png Graphic file (type png)
 <use ../Graphiken/Simulink3.png>
 Package pdftex.def Info: ../Graphiken/Simulink3.png  used on input line 23.
 (pdftex.def)             Requested size: 455.24417pt x 116.0439pt.
-<../Graphiken/Simulink4.png, id=73, 604.2575pt x 382.42876pt>
+<../Graphiken/Simulink4.png, id=137, 604.2575pt x 382.42876pt>
 File: ../Graphiken/Simulink4.png Graphic file (type png)
 <use ../Graphiken/Simulink4.png>
 Package pdftex.def Info: ../Graphiken/Simulink4.png  used on input line 30.
 (pdftex.def)             Requested size: 455.24417pt x 288.12215pt.
+) (./content/D4.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+ [9
+
+]
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+
+[10 <../Graphiken/TireSimRandomMain.pdf, page is rotated 270 degrees>]
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+
+[11 <../Graphiken/Simulink2.png> <../Graphiken/Simulink3.png> <../Graphiken/Sim
+ulink4.png>]
+chapter 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
 ) (./content/D5.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
@@ -2187,44 +2320,36 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
- [7
+ [12
 
 ]
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
+chapter 4.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-
-[8 <../Graphiken/TireSimRandomMain.pdf, page is rotated 270 degrees>]
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-
-[9 <../Graphiken/Simulink2.png> <../Graphiken/Simulink3.png> <../Graphiken/Simu
-link4.png>]
-chapter 3.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-<../Graphiken/Simulink5.png, id=119, 1050.92625pt x 477.785pt>
+<../Graphiken/Simulink5.png, id=188, 1050.92625pt x 477.785pt>
 File: ../Graphiken/Simulink5.png Graphic file (type png)
 <use ../Graphiken/Simulink5.png>
 Package pdftex.def Info: ../Graphiken/Simulink5.png  used on input line 12.
 (pdftex.def)             Requested size: 455.24417pt x 206.96724pt.
+) (./content/D6.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+ [13
+
+ <../Graphiken/Simulink5.png>]
+chapter 5.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
 ) (./content/D7.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
@@ -2234,28 +2359,28 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
- [10
+ [14
 
- <../Graphiken/Simulink5.png>]
-chapter 4.
+]
+chapter 6.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
-<../Graphiken/Model.png, id=128, 525.08672pt x 534.12047pt>
+<../Graphiken/Model.png, id=203, 525.08672pt x 534.12047pt>
 File: ../Graphiken/Model.png Graphic file (type png)
 <use ../Graphiken/Model.png>
 Package pdftex.def Info: ../Graphiken/Model.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24417pt x 463.0918pt.
-<../Graphiken/ErrorModule.png, id=129, 672.26157pt x 289.08pt>
+<../Graphiken/ErrorModule.png, id=204, 383.18156pt x 151.3153pt>
 File: ../Graphiken/ErrorModule.png Graphic file (type png)
 <use ../Graphiken/ErrorModule.png>
 Package pdftex.def Info: ../Graphiken/ErrorModule.png  used on input line 14.
-(pdftex.def)             Requested size: 455.24417pt x 195.76016pt.
+(pdftex.def)             Requested size: 455.24417pt x 179.78345pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/RandomGenerator.png, id=130, 889.07156pt x 525.83954pt>
+<../Graphiken/RandomGenerator.png, id=205, 889.07156pt x 525.83954pt>
 File: ../Graphiken/RandomGenerator.png Graphic file (type png)
 <use ../Graphiken/RandomGenerator.png>
 Package pdftex.def Info: ../Graphiken/RandomGenerator.png  used on input line 2
@@ -2264,7 +2389,7 @@ Package pdftex.def Info: ../Graphiken/RandomGenerator.png  used on input line 2
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/Reset.png, id=131, 696.72797pt x 398.99063pt>
+<../Graphiken/Reset.png, id=206, 696.72797pt x 398.99063pt>
 File: ../Graphiken/Reset.png Graphic file (type png)
 <use ../Graphiken/Reset.png>
 Package pdftex.def Info: ../Graphiken/Reset.png  used on input line 28.
@@ -2272,7 +2397,7 @@ Package pdftex.def Info: ../Graphiken/Reset.png  used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/ResetStateMachine.png, id=132, 785.93625pt x 473.89546pt>
+<../Graphiken/ResetStateMachine.png, id=207, 785.93625pt x 473.89546pt>
 File: ../Graphiken/ResetStateMachine.png Graphic file (type png)
 <use ../Graphiken/ResetStateMachine.png>
 Package pdftex.def Info: ../Graphiken/ResetStateMachine.png  used on input line
@@ -2281,7 +2406,7 @@ Package pdftex.def Info: ../Graphiken/ResetStateMachine.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/SOS_state.png, id=133, 634.62094pt x 522.07547pt>
+<../Graphiken/SOS_state.png, id=208, 634.62094pt x 522.07547pt>
 File: ../Graphiken/SOS_state.png Graphic file (type png)
 <use ../Graphiken/SOS_state.png>
 Package pdftex.def Info: ../Graphiken/SOS_state.png  used on input line 42.
@@ -2289,7 +2414,7 @@ Package pdftex.def Info: ../Graphiken/SOS_state.png  used on input line 42.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Graphiken/TireMean.png, id=134, 730.98094pt x 238.26515pt>
+<../Graphiken/TireMean.png, id=209, 730.98094pt x 238.26515pt>
 File: ../Graphiken/TireMean.png Graphic file (type png)
 <use ../Graphiken/TireMean.png>
 Package pdftex.def Info: ../Graphiken/TireMean.png  used on input line 49.
@@ -2297,72 +2422,157 @@ Package pdftex.def Info: ../Graphiken/TireMean.png  used on input line 49.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+) (./content/D8.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
- [11
+(babel)             in language  on input line 2.
+ [15
 
  <../Graphiken/Model.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 
-[12 <../Graphiken/ErrorModule.png> <../Graphiken/RandomGenerator.png>]
+[16 <../Graphiken/ErrorModule.png> <../Graphiken/RandomGenerator.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 
-[13 <../Graphiken/Reset.png> <../Graphiken/ResetStateMachine.png>]
+[17 <../Graphiken/Reset.png> <../Graphiken/ResetStateMachine.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 2.
 
-[14 <../Graphiken/SOS_state.png> <../Graphiken/TireMean.png>]
+[18 <../Graphiken/SOS_state.png> <../Graphiken/TireMean.png>]
+chapter 7.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+) (./content/D9.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+ [19
+
+]
+chapter 8.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+) (./content/D10.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+ [20
+
+]
+chapter 9.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+) (./content/D11.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+ [21
+
+]
+chapter 10.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+) (./content/D12.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+ [22
+
+]
+chapter 11.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 69.
+ [23
+
+]
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
 (./dokumentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 65.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
 Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 \openout1 = `dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48050 strings out of 492649
- 909540 string characters out of 6129621
+ 48113 strings out of 492649
+ 910608 string characters out of 6129621
  1559508 words of memory out of 5000000
- 51050 multiletter control sequences out of 15000+600000
+ 51074 multiletter control sequences out of 15000+600000
  566155 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,8n,80p,10400b,2267s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,20n,80p,10400b,2267s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/texmf-dist/
@@ -2378,10 +2588,10 @@ c/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro12.
 pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on dokumentation.pdf (14 pages, 750130 bytes).
+Output written on dokumentation.pdf (23 pages, 1295171 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 12954 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 13045 words of extra memory for PDF output out of 14400 (max. 10000000)
 
