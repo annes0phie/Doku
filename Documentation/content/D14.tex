@@ -1,0 +1,7 @@
+\chapter{Aufgabe D14}
+\subsubsection{Deltazeit}
+In der gesamten Umsetzung wurden 10 Sekunden zur Delta generierung genutzt. Durch diese 10 Sekunden wurde kleines Rauschen/Noise bei der Erkennung von Reifendruckabfällen unterdrückt. Auch zum Reset wurde deswegen die Einschwingdauer von 10 Sekunden verwendet.
+Sollte die Gesamtfunktionalität jedoch tatsächlich im Fahrzeug implementiert werden, sollte eine höhere Deltatime gewählt werden, da Fahrzeiten deutlich höher sind. In der Simulation wurden jedoch nur 10 Sekunden gewählt, um ein schnelles Testen zu gewährleisten.
+
+\subsubsection{Änderbarkeit des Codes/Modell}
+Gerade in ASCET sind Größen wie die Größe des Buffers nicht variabel festlegbar und können nur bei der Definition des Buffers festgelegt werden. Es wurde nach Möglichkeiten gesucht, wie das Modell/Code anpassbarer gemacht werden könnte jedoch ist es beispielsweise in ASCET nicht möglich ein Array mit variabler Länge zu erstellen. 
