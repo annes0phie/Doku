@@ -25,4 +25,7 @@ Die Reset-Statemachine besitzt vier States.
 	\label{fig:ResetStateMachine}
 \end{figure}
 Im DoNothing-State befindet sich die Statemachine solange die Reset-Taste nicht gedrückt wurde bzw. der Reset nicht akzeptiert wurde. Liegt ein valider Reset vor wechselt die STatemachine in WaitForGo. Ab diesem State werden vorerst alle Reifenfehlermeldungen unterdrückt, da während einem Reset ja kein Fehler auftauchen sollte. Fährt das Auto los, beginnt der eigentliche Reset des Systems. Durch das Losfahren ist der Reset-Parameter nicht mehr aktiv und die Statemachine wechselt in den State WaitForReset. In diesem State wartet das System, bis sich sich das System eingeschwungen hat, sodass Noise das System nicht verfälscht. Ab einer gewissen Zeit wechselt die Statemachine in den Reset-Zustand in diesem wird nun wie auch in \autoref{fig:devCalc} die momentane prozentuale Abweichung berechnet und auf das Standardlimit addiert. Dadurchwird die Abweichung für diesen Reifen um soviel größer, wie der Reifendruck momentan abweicht. Weicht der Reifendruck dann von diesem wieder 0.5\% ab wird dann wieder ein Failure erkannt. Nach dem erfolgreichen Reset wechselt die Statemachine wieder in DoNothing, wo auch wieder das Erkennen von Reifendruckabfällen freigeschaltet wird.\\
-Dieser Reset wird parallel in drei weiteren Statemachines für die anderen Reifen durchgeführt.
+Dieser Reset wird parallel in drei weiteren Statemachines für die anderen Reifen durchgeführt.\\
+
+
+Um dies im Environment zu testen, wird vor Start mit Hilfe des Error-Moduls, der Reifendruck eines Reifens manipuliert und der Reset aktiviert.
