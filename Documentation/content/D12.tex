@@ -1,16 +1,28 @@
 
 \chapter{Aufgabe D12}
-
-\begin{figure}[h!]
+Füllt der Fahrer seine Reifen wieder auf ist es unwahrscheinlich, dass alle Reifen den exakt gleichen Druck haben. Deswegen wird eine Resetfunktionalität implementiert, der diese Ungenauigkeiten in der Berechnung für Reifendruckabfälle mit einbezieht.\\ 
+Dieser Reset soll vom Fahrer manuell betätigt werden und kann nur initiiert werden wenn das Fahrzeug steht. Dafür wird das folgende Modul verwendet.
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{../Graphiken/Reset.png}
-	\caption{Reset}
+	\includegraphics[width=0.9\linewidth]{../Graphiken/Reset.png}
+	\caption{Reset Funktion}
 	\label{fig:Reset}
 \end{figure}
+Eine Ebene höher interagiert die Funktion mit einer Statemachine die den Reset bearbeitet.
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=\linewidth]{../Graphiken/ResetTop1.png}
+ 	\caption{Reset}
+ 	\label{fig:ResetTop}
+ \end{figure}
 
-\begin{figure}[h!]
+Die Statemachine ist vierfach für jeden Reifen ausgeführt. Sie besitzt als Inputs zum einen, ob der Reset valid ist, das dT, eine ein Streckendelta eines Reifens, den Durchschnitt aller Reifen, sowie das Limit bei dem ein Failure erkannt wird. Als Output gibt die Statemachine das neue Limit sowie eine Message, die ein Signalisieren eines zu hohen oder zu niedrigen Reifendurcks unterdrücken kann.\\
+Die Reset-Statemachine besitzt vier States.
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{../Graphiken/ResetStateMachine.png}
 	\caption{Reset Statemachine}
 	\label{fig:ResetStateMachine}
 \end{figure}
+Im DoNothing-State befindet sich die Statemachine solange die Reset-Taste nicht gedrückt wurde bzw. der Reset nicht akzeptiert wurde. Liegt ein valider Reset vor wechselt die STatemachine in WaitForGo. Ab diesem State werden vorerst alle Reifenfehlermeldungen unterdrückt, da während einem Reset ja kein Fehler auftauchen sollte. Fährt das Auto los, beginnt der eigentliche Reset des Systems. Durch das Losfahren ist der Reset-Parameter nicht mehr aktiv und die Statemachine wechselt in den State WaitForReset. In diesem State wartet das System, bis sich sich das System eingeschwungen hat, sodass Noise das System nicht verfälscht. Ab einer gewissen Zeit wechselt die Statemachine in den Reset-Zustand in diesem wird nun wie auch in \autoref{fig:devCalc} die momentane prozentuale Abweichung berechnet und auf das Standardlimit addiert. Dadurchwird die Abweichung für diesen Reifen um soviel größer, wie der Reifendruck momentan abweicht. Weicht der Reifendruck dann von diesem wieder 0.5\% ab wird dann wieder ein Failure erkannt. Nach dem erfolgreichen Reset wechselt die Statemachine wieder in DoNothing, wo auch wieder das Erkennen von Reifendruckabfällen freigeschaltet wird.\\
+Dieser Reset wird parallel in drei weiteren Statemachines für die anderen Reifen durchgeführt.
