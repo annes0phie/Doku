@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.22)  24 MAR 2019 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.22)  24 MAR 2019 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2200,11 +2200,11 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 42.
 
 [5 <../Graphiken/velo_ohneRand.png>]
-<../Graphiken/velo_vs_sw.png, id=108, 830.10126pt x 659.46375pt>
+<../Graphiken/velo_vs_sw.png, id=108, 745.78625pt x 615.29875pt>
 File: ../Graphiken/velo_vs_sw.png Graphic file (type png)
 <use ../Graphiken/velo_vs_sw.png>
 Package pdftex.def Info: ../Graphiken/velo_vs_sw.png  used on input line 64.
-(pdftex.def)             Requested size: 455.24417pt x 361.65967pt.
+(pdftex.def)             Requested size: 455.24417pt x 375.58517pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
@@ -2936,7 +2936,7 @@ dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
 ublic/lm/lmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lm
 tk10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (38 pages, 2007210 bytes).
+Output written on dokumentation.pdf (38 pages, 2007198 bytes).
 PDF statistics:
  974 PDF objects out of 1000 (max. 8388607)
  824 compressed objects within 9 object streams
