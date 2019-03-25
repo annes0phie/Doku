@@ -2451,7 +2451,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [14
+ [15
 
 ]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
@@ -2465,7 +2465,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 
-[15 <../Graphiken/Simulink5.png>]
+[16 <../Graphiken/Simulink5.png>]
 chapter 6.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
@@ -2490,7 +2490,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 17.
-[16
+[17
 
  <../Graphiken/TireSimRandom.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
