@@ -1,12 +1,12 @@
 \chapter{Aufgabe D14}
 \subsubsection{Deltazeit}
-In der gesamten Umsetzung wurden 10 Sekunden zur Delta generierung genutzt. Durch diese 10 Sekunden wurde kleines Rauschen/Noise bei der Erkennung von Reifendruckabfällen unterdrückt. Auch zum Reset wurde deswegen die Einschwingdauer von 10 Sekunden verwendet.
+In der gesamten Umsetzung wurden 10 Sekunden zur Deltagenerierung genutzt. Durch diese 10 Sekunden wurde kleines Rauschen/Noise bei der Erkennung von Reifendruckabfällen unterdrückt. Auch zum Reset wurde deswegen die Einschwingdauer von 10 Sekunden verwendet.
 Sollte die Gesamtfunktionalität jedoch tatsächlich im Fahrzeug implementiert werden, sollte eine höhere Deltatime gewählt werden, da Fahrzeiten deutlich höher sind. In der Simulation wurden jedoch nur 10 Sekunden gewählt, um ein schnelles Testen zu gewährleisten.
 
 \subsubsection{Änderbarkeit des Codes/Modell}
 Gerade in ASCET sind Größen wie die Größe des Buffers nicht variabel festlegbar und können nur bei der Definition des Buffers festgelegt werden. Es wurde nach Möglichkeiten gesucht, wie das Modell/Code anpassbarer gemacht werden könnte jedoch ist es beispielsweise in ASCET nicht möglich ein Array mit variabler Länge zu erstellen. 
 
 \subsubsection{Effizienz bei dem Bearbeiten der Aufgaben}
-Die Aufgaben sind sehr unpräzise gestellt, so gibt es viel Interpretationsspielraum. Häufig ist es vorgekommen, dass nach erstem Lösen einer Aufgabe eine neue Interpretation entstanden ist, sodass die Aufgabe nochmal überarbeitet werden musste. Beispielhaft sind dafür die Aufgaben D3/D4.\\
+Die Aufgaben sind sehr unpräzise gestellt, so gibt es viel Interpretationsspielraum. Häufig ist es vorgekommen, dass nach erstem Lösen einer Aufgabe eine neue Interpretation entstanden ist, sodass die Aufgabe nochmal überarbeitet werden musste. Beispielhaft sind dafür die Aufgaben D2/D3/D4.\\
 Das Programmieren mit ASCET im Idealfall geht schnell. Treten jedoch Fehler auf, sprengen diese meist die eingeplante Zeit, da durch ASCET wenig Hilfestellung zur Lösung der Probleme geleistet wird.\\
 Außerdem entstand der Eindruck, dass grafisches Programmieren langsamer und mühsamer ist, als die Implementierung in Skriptsprache. Ein Beispiel ist hierfür der Buffer, der in Skriptsprache umgesetzt wurde, da dies einfacher und übersichtlicher ist.\\
