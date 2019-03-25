@@ -22,7 +22,7 @@ Korrekte Integration:
 	@Test
 	public void predictDistance(){...}
 \end{lstlisting}
-Diese Tests, testen erfolgreich, ob die Distanzen der Räder wachsen und somit die Integration korrekt durchgeführt wurde. Außerdem überprüfen sie, ob die Räder die richtige Distanz nach einer bestimmten Zeit erreicht haben.\\
+Diese Tests testen erfolgreich, ob die Distanzen der Räder wachsen und somit die Integration korrekt durchgeführt wurde. Außerdem überprüfen sie, ob die Räder die richtige Distanz nach einer bestimmten Zeit erreicht haben.\\
 
 Korrekte Implementierung des Buffers:
 \begin{lstlisting}
@@ -35,14 +35,14 @@ Korrekte Implementierung des Buffers:
 	@Test
 	public void read_last_element(){...}
 \end{lstlisting}
-Diese Tests, testen erfolgreich, ob der Buffer richtig beschrieben und ausgelesen wird.\\
+Diese Tests testen erfolgreich, ob der Buffer richtig beschrieben und ausgelesen wird.\\
 
 Deltas korrekt berechnet:
 \begin{lstlisting}
 	@Test
 	public void deltasConsistentForSameVelocity(){...}
 \end{lstlisting}
-Dieser Test bestimmt, ob die Deltas richtig berechnet werden. Zum Test wird ausschließlich die gleiche Geschwindigkeit verwendet, dies ist einfacher zu testen. Eine variable Geschwindigkeit ist nicht notwendig, da die Deltas auf der gefahren Strecke beruhen, die sich auch bei gleichbleibender Geschwindigkeit ändert.
+Dieser Test bestimmt, ob die Deltas richtig berechnet werden. Zum Test wird einfachheitshalber ausschließlich die gleiche Geschwindigkeit verwendet. Eine variable Geschwindigkeit ist nicht notwendig, da die Deltas auf der gefahren Strecke beruhen, die sich auch bei gleichbleibender Geschwindigkeit ändert.
 
 \subsubsection{TirePressure Monitoring}
 Anforderungen:
@@ -79,7 +79,7 @@ Korrekte Signalisierung der Abweichung:
 	@Test
 	public void lowDeviation(){...}
 \end{lstlisting}
-Diese Tests, zeigen erfolgreich, dass Abweichungen signalisiert werden, wenn es welche gibt, unabhängig davon, ob der Mittelwert über- oder unterschritten wird. Dies zeigt auch, dass die Abweichungen korrekt berechnet werden.\\
+Diese Tests zeigen erfolgreich, dass Abweichungen signalisiert werden, unabhängig davon, ob der Mittelwert über- oder unterschritten wird. Dies zeigt auch, dass die Abweichungen korrekt berechnet werden.\\
 
 Keine Signalisierung der Abweichung bei Kalibrierung:
 \begin{lstlisting}
@@ -91,7 +91,7 @@ public void highDeviationWhileCalibration(){...}
 
 @Test
 public void lowDeviationWhileCalibration(){...}
-\end{lstlisting}Im Rahmen von R4/D12 wird hier getestet, ob Signalisierungen von Abweichungen während der Kalibrierung unterdrückt werden. Weiteres dazu in D12.
+\end{lstlisting}Im Rahmen von R4/D12 wird hier getestet, ob Signalisierungen von Abweichungen während der Kalibrierung unterdrückt werden. Weiteres dazu wird in Aufgabe D12 angesprochen.
 
 %
 %\section{Model}
