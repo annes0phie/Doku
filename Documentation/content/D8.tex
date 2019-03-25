@@ -18,31 +18,31 @@ Anforderungen:
 Korrekte Integration:
 \begin{lstlisting}
 	@Test
-	public void distanceIncreasing(){}
+	public void distanceIncreasing(){...}
 	@Test
-	public void predictDistance(){}
+	public void predictDistance(){...}
 \end{lstlisting}
-Diese Tests, testen erfolgreich, ob die Distanzen der Räder wachsen und somit die Integration korrekt durchgeführt wird. Außerdem ob die Räder die richtige Distanz nach einer bestimmten Zeit erreicht haben.\\
+Diese Tests, testen erfolgreich, ob die Distanzen der Räder wachsen und somit die Integration korrekt durchgeführt wurde. Außerdem überprüfen sie, ob die Räder die richtige Distanz nach einer bestimmten Zeit erreicht haben.\\
 
-Korrekte Implementation des Buffers:
+Korrekte Implementierung des Buffers:
 \begin{lstlisting}
 	@Test
-	public void start_with_empty_buffer(){}
+	public void start_with_empty_buffer(){...}
 	
 	@Test
-	public void fill_buffer_decending(){}
+	public void fill_buffer_decending(){...}
 	
 	@Test
-	public void read_last_element(){}
+	public void read_last_element(){...}
 \end{lstlisting}
 Diese Tests, testen erfolgreich, ob der Buffer richtig beschrieben und ausgelesen wird.\\
 
 Deltas korrekt berechnet:
 \begin{lstlisting}
 	@Test
-	public void deltasConsistentForSameVelocity(){}
+	public void deltasConsistentForSameVelocity(){...}
 \end{lstlisting}
-Dieser Test bestimmt, ob die Deltas richtig berechnet werden. Zum Test wird ausschließlich die gleiche Geschwindigkeit verwendet, dies ist einfacher zu testen. Eine variable Geschwindigkeit ist nicht notwendig, da der die Deltas auf der gefahren Strecke beruhen, die sich auch bei gleichbleibender Geschwindigkeit ändert.
+Dieser Test bestimmt, ob die Deltas richtig berechnet werden. Zum Test wird ausschließlich die gleiche Geschwindigkeit verwendet, dies ist einfacher zu testen. Eine variable Geschwindigkeit ist nicht notwendig, da die Deltas auf der gefahren Strecke beruhen, die sich auch bei gleichbleibender Geschwindigkeit ändert.
 
 \subsubsection{TirePressure Monitoring}
 Anforderungen:
@@ -55,42 +55,42 @@ Anforderungen:
 Korrekte Mittelwerte:
 \begin{lstlisting}
 	@Test
-    public void calcMeanAllValuesTheSame(){    }
+    public void calcMeanAllValuesTheSame(){...}
     
     @Test
-    public void calcMean(){    }
+    public void calcMean(){...}
     
     @Test
-    public void calcMeanNegativ(){    }
+    public void calcMeanNegativ(){...}
     
     @Test
-    public void calcMeanMixed(){    }
+    public void calcMeanMixed(){...}
 \end{lstlisting}
-Diese Test, zeigen erfolgreich, dass die Mittelwertberechnung mit unterschiedlichsten Werten funktioniert.\\
+Diese Test zeigen erfolgreich, dass die Mittelwertberechnung mit unterschiedlichsten Werten funktioniert.\\
 
 Korrekte Signalisierung der Abweichung:
 \begin{lstlisting}
 	@Test
-	public void noDeviation(){	}
+	public void noDeviation(){...}
 	
 	@Test
-	public void highDeviation(){	}
+	public void highDeviation(){...}
 	
 	@Test
-	public void lowDeviation(){	}
+	public void lowDeviation(){...}
 \end{lstlisting}
-Diese Tests, zeigen erfolgreich, dass keine Abweichung signalisiert wird wenn es keine Abweichung gibt und Abweichung korrekt signalisiert werden, wenn es welche gibt, egal, ob diese den Mittelwert über- oder unterschreiten. Dies zeigt auch, dass die Abweichungen korrekt berechnet werden.\\
+Diese Tests, zeigen erfolgreich, dass Abweichungen signalisiert werden, wenn es welche gibt, unabhängig davon, ob der Mittelwert über- oder unterschritten wird. Dies zeigt auch, dass die Abweichungen korrekt berechnet werden.\\
 
 Keine Signalisierung der Abweichung bei Kalibrierung:
 \begin{lstlisting}
 @Test
-public void noDeviationWhileCalibration(){	}
+public void noDeviationWhileCalibration(){...}
 
 @Test
-public void highDeviationWhileCalibration(){	}
+public void highDeviationWhileCalibration(){...}
 
 @Test
-public void lowDeviationWhileCalibration(){	}
+public void lowDeviationWhileCalibration(){...}
 \end{lstlisting}Im Rahmen von R4/D12 wird hier getestet, ob Signalisierungen von Abweichungen während der Kalibrierung unterdrückt werden. Weiteres dazu in D12.
 
 %

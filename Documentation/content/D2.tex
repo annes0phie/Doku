@@ -3,25 +3,33 @@
 \section{Berechnung der Radien}
 Im folgenden werden die in der Aufgabenstellung gegebenen Gleichungen verwendet, um die Kurvenradien der einzelnen Räder zu berechnen.\\
 
-	Mit (6) folgt: $ \frac{R_{RR}}{R_{RL}} = \frac{V_{RR}}{V_{RL}}$  \\
-	\hspace*{2.5cm}${R_{RL} = {R_{RR}} * \frac{V_{RR}}{V_{RL}}}$ \\
-	Mit (1) folgt: ${R_{RL}} = \frac{V_{RR}}{V_{RL}} * (W+{R_{RL}})$ \\
-	\hspace*{2.5cm}${R_{RL}}-\frac{V_{RR}}{V_{RL}}*{R_{RL}} = \frac{V_{RR}}{V_{RL}} * W $\\
-	\hspace*{2.5cm}${R_{RL}}*(1-\frac{V_{RR}}{V_{RL}})= \frac{V_{RR}}{V_{RL}} * W $\\
-	\hspace*{2.5cm}${R_{RL}}= \frac{\frac{V_{RR}}{V_{RL}} * W}{1-\frac{V_{RR}}{V_{RL}}}$ \\
-	\hspace*{2.5cm}${R_{RL}}= \frac{W}{\frac{V_{RR}}{V_{RL}}-1}$    \hfill ( 7 )\\
-	Mit (1) folgt: ${R_{RR}}= W + {R_{RL}} = W + \frac{W}{\frac{V_{RR}}{V_{RL}}-1}$  \hfill ( 8 )\\
-	Mit (2) folgt: ${R_{FR}}^2= B^2 + (W + \frac{W}{\frac{V_{RR}}{V_{RL}}-1})^2$ \\
-	\hspace*{2.5cm}${R_{FR}} = \sqrt{B^2 + (W + \frac{W}{\frac{V_{RR}}{V_{RL}}-1})^2}$ \hfill ( 9 )\\
-	Mit (3) folgt: ${R_{FR}}^2= B^2 + (\frac{W}{\frac{V_{RR}}{V_{RL}}-1})^2$\\
-	\hspace*{2.5cm}${R_{FR}} = \sqrt{B^2 + (\frac{W}{\frac{V_{RR}}{V_{RL}}-1})^2}$  \hfill ( 10 )\\ 
+	Mit (6) folgt: $ \dfrac{R_{RR}}{R_{RL}} = \dfrac{V_{RR}}{V_{RL}}$  \\
+	
+	\hspace*{2.5cm}${R_{RL} = {R_{RR}} * \dfrac{V_{RR}}{V_{RL}}}$ \\
+	
+	Mit (1) folgt: ${R_{RL}} = \dfrac{V_{RR}}{V_{RL}} * (W+{R_{RL}})$ \\
+	
+	\hspace*{2.5cm}${R_{RL}}-\dfrac{V_{RR}}{V_{RL}}*{R_{RL}} = \dfrac{V_{RR}}{V_{RL}} * W $\\
+	
+	\hspace*{2.5cm}${R_{RL}}*(1-\dfrac{V_{RR}}{V_{RL}})= \dfrac{V_{RR}}{V_{RL}} * W $\\
+	
+	\hspace*{2.5cm}${R_{RL}}= \dfrac{\dfrac{V_{RR}}{V_{RL}} * W}{1-\dfrac{V_{RR}}{V_{RL}}}$ \\
+	
+	\hspace*{2.5cm}${R_{RL}}= \dfrac{W}{\dfrac{V_{RR}}{V_{RL}}-1}$    \hfill ( 7 )\\
+	Mit (1) folgt: ${R_{RR}}= W + {R_{RL}} = W + \dfrac{W}{\dfrac{V_{RR}}{V_{RL}}-1}$  \hfill ( 8 )\\
+	
+	Mit (2) folgt: ${R_{FR}}^2= B^2 + (W + \dfrac{W}{\dfrac{V_{RR}}{V_{RL}}-1})^2$ \\
+	\hspace*{2.5cm}${R_{FR}} = \sqrt{B^2 + (W + \dfrac{W}{\dfrac{V_{RR}}{V_{RL}}-1})^2}$ \hfill ( 9 )\\
+	
+	Mit (3) folgt: ${R_{FR}}^2= B^2 + (\dfrac{W}{\dfrac{V_{RR}}{V_{RL}}-1})^2$\\
+	\hspace*{2.5cm}${R_{FR}} = \sqrt{B^2 + (\dfrac{W}{\dfrac{V_{RR}}{V_{RL}}-1})^2}$  \hfill ( 10 )\\ 
 	
 Die erstellten Gleichungen stellen die Grundlage für die folgenden Analysen dar.
 \newpage
 \section{Analyse der ausgewählten Situationen}
 	Im Folgenden wird anhand einiger Graphiken das Verhalten bei Kurvenfahrten analysiert.
 	
-	In der nachfolgenden \autoref{fig:velo_ohneRand} werden zuerst die Geschwindigkeiten der vier Räder des Fahrzeugs dargestellt. Es gibt einen schnellen Überblick, wann das Fahrzeug fuhr langsam, schnell oder stand. \\
+	In der nachfolgenden \autoref{fig:velo_ohneRand} werden zuerst die Geschwindigkeiten der vier Räder des Fahrzeugs dargestellt. Es gibt einen schnellen Überblick, wann das Fahrzeug stand, langsam oder schnell fuhr. \\
 	Es ist erkennbar, dass es Abweichungen zwischen den Geschwindigkeiten gibt. Die Gründe dahinter werden nachfolgend genauer erläutern.
 	\begin{figure}[h!]
 		\centering
@@ -105,7 +113,7 @@ Die erstellten Gleichungen stellen die Grundlage für die folgenden Analysen dar
 % %legend('Front Right Radius','Front Left Radius')
 % title('Velocity vs. Radius');
 
-	Die \autoref{fig:velo_vs_sw} zeigt einen Ausschnitt zwischen 495s und 550s. Die Abbildung wurde in einzelne Abschnitte zur Analyse unterteilt. Im ersten Abschnitt, vor 500ms, ist der Lenkradwinkel sehr klein. Man sieht dort kaum keinen Unterschied zwischen den Geschwindigkeiten der linken und rechten Rädern. Im zweiten Abschnitt ist der Lenkwinkel wesentlich höher. Das hat zur Folge, dass die Geschwindigkeit der rechten Räder über der Geschwindigkeit der linken Räder liegt. Beim Wechsel vom zweiten in den dritten Abschnitt ist der Winkel kurz Null und steigt dann wieder. Dort liegt die Geschwindigkeit der linken Räder über der Geschwindigkeit der rechten Räder. Daraus lässt sich schließen, dass sich die Fahrt von einer Links- in eine Rechtskurve ändert. Im vorletzten Abschnitt ist wieder eine Linkskurve erkennbar. Im letzten Abschnitt wird kaum gelenkt, aus diesem Grund weichen die Geschwindigkeiten nur sehr gering voneinander ab.\\
+	Die \autoref{fig:velo_vs_sw} zeigt einen Ausschnitt zwischen 505s und 555s. Die Abbildung wurde in einzelne Abschnitte zur Analyse unterteilt. Im ersten Abschnitt ist der Lenkradwinkel sehr klein. Man sieht dort keinen Unterschied zwischen den Geschwindigkeiten der linken und rechten Räder. Im zweiten Abschnitt ist der Lenkwinkel wesentlich höher. Das hat zur Folge, dass die Geschwindigkeit der rechten Räder über der Geschwindigkeit der linken Räder liegt. Beim Wechsel vom zweiten in den dritten Abschnitt ist der Winkel kurz Null und steigt dann wieder. Dort liegt die Geschwindigkeit der linken Räder über der Geschwindigkeit der rechten Räder. Daraus lässt sich schließen, dass sich die Fahrt von einer Links- in eine Rechtskurve ändert. Im vorletzten Abschnitt ist wieder eine Linkskurve erkennbar. Im letzten Abschnitt wird kaum gelenkt, aus diesem Grund weichen die Geschwindigkeiten nur sehr gering voneinander ab.\\
 Es ist zu erkennen, dass der Lenkradwinkel eine gravierende Ursache für die Differenz der Geschwindigkeiten ist.
 \begin{figure}[h!]
 	\centering
@@ -127,7 +135,7 @@ Es ist zu erkennen, dass der Lenkradwinkel eine gravierende Ursache für die Dif
 %title('Velocity vs. Steering Wheel Signal');
 %für zusätzlichen Drehwinkel --> Links oder Rechtsfahrt
 \newpage
-Die \autoref{fig:outter_vs_inner} zeigt den Ausschnitt von ca. 510ms bis 517ms. Dieser entspricht dem zweiten Abschnitt der \autoref{fig:velo_vs_sw}. Hier werden die Radien der beiden Vorderräder verglichen. Es ist erkennbar, dass der Radius des Rechten Vorderrads immer über dem Radius des Linken liegt. Dies zeigt nochmal, dass es sich hier um eine Linkskurve handelt.
+Die \autoref{fig:outter_vs_inner} zeigt den Ausschnitt von ca. 510s bis 517s. Dieser entspricht dem zweiten Abschnitt der \autoref{fig:velo_vs_sw}. Hier werden die Radien der beiden Vorderräder verglichen. Es ist erkennbar, dass der Radius des Rechten Vorderrads immer über dem Radius des Linken liegt. Dies zeigt nochmal, dass es sich hier um eine Linkskurve handelt.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{../Graphiken/outter_vs_inner}

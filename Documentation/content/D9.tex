@@ -1,4 +1,3 @@
-
 \chapter{Aufgabe D9}
 Für die Umsetzung der Warnfunktion durch eine LED, die einen Druckabfall-/anstieg signalisiert, wurde eine Statemachine verwendet. Diese besteht aus insgesamt fünf Stati, vier die jeweils 0,8 bzw. 1,6s dauern und die LED ein- bzw. ausschalten und dem Off-Status.
 Die Variable \glqq status"' steuert die LED. Weitere Variablen sind ausschließlich Hilfsvariablen oder zum Testen.
@@ -9,7 +8,7 @@ Die Variable \glqq status"' steuert die LED. Weitere Variablen sind ausschließl
 	\caption{SOS Statemachine}
 	\label{fig:SOS_state}
 \end{figure}
-Für die Statemachine \glqq SOS"' wurden ebenfalls Unittests durchgeführt. Zum einen wird getestet, ob die Statemachine zu jedem Zeitpunkt x im richtigen State ist, dafür wurde eine Debugvaribale \glqq statelocation"' eingeführt.\\
+Für die Statemachine \glqq SOS"' wurden ebenfalls Unittests durchgeführt. Zum einen wird getestet, ob die Statemachine zu jedem Zeitpunkt x im richtigen State ist. Dafür wurde eine Debugvaribale \glqq statelocation"' eingeführt.\\
 Des Weiteren wird erfolgreich getestet, ob die Statemachine bei einem dauerhaften Failure aktiv bleibt.
 \begin{lstlisting}
 	@Test
@@ -17,7 +16,7 @@ Des Weiteren wird erfolgreich getestet, ob die Statemachine bei einem dauerhafte
   \end{lstlisting}
   
   
-  Außerdem, ob die Statemachine in den Off-State wechselt, sollte kein Failure nach einem vollständigem Durchlauf mehr vorliegen.
+  Außerdem wird überprüft, ob die Statemachine in den Off-State wechselt, wenn nach einem vollständigem Durchlauf kein Fehler mehr vorliegt.
 \begin{lstlisting}
     @Test
     public void checkAllStatelocationsActiveContinuesNot(){}
