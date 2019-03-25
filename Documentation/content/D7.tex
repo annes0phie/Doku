@@ -50,7 +50,7 @@ public real calc(real in set_vel, real in noiselevel, integer in mySeed) {
 \end{lstlisting}
 
 \subsubsection{Simulation}
-Die Simulation berechnet, die Distanzen und Deltas in einem Submodul und schickt diese dann per Message weiter.
+Die Simulation berechnet die Distanzen und Deltas in einem Submodul und schickt diese dann per Message weiter.
 \begin{figure}[H]
 	\centering
 \includegraphics[width=1\linewidth]{../Graphiken/ModelSim}
@@ -111,7 +111,7 @@ Die Codenotation ist einfacher zu implementieren und für diesen Fall auch über
 Um die berechneten Größen im Topmodul zugänglich zu machen, werden für die Strecken und Deltas getter-Funktionen im Code implementiert.
 
 \subsubsection{TirePressureMonitoring}
-Im Topmodul wird zum einen der Mittelwert,
+Im Topmodul wird der Mittelwert,
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../Graphiken/mean}
@@ -132,14 +132,14 @@ Abschließend werden die Ergebnisse aller vier Reifen verodert.
 	\caption{Fehlererkennung}
 	\label{fig:fehler}
 \end{figure}
-Die Mittelwertberechnung unterscheidet sich gar nicht vom Simulinkmodel und ist wie in \autoref{fig:Simittelm} in einem Submodul wie folgt umgesetzt.
+Die Mittelwertberechnung unterscheidet sich gar nicht vom Simulinkmodel und ist wie in \autoref{fig:Simittelm} in einem Submodul, das in der nachfolgenden Abbildung dargestellt ist, umgesetzt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{../Graphiken/meanCalc}
 	\caption{Mittelwertberechnung}
 	\label{fig:mittel}
 \end{figure}
-Die Abweichungsberechnung unterscheidet sich ebenfalls nicht vom Simulink Modell und ist ebenfalls wie in \autoref{fig:abweichung} in einem Submodul wie folgt umgesetzt.
+Die Abweichungsberechnung unterscheidet sich ebenfalls nicht vom Simulink Modell und ist ebenfalls wie in \autoref{fig:devCalc} in einem Submodul, das in der nachfolgenden Abbildung dargestellt ist, umgesetzt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{../Graphiken/devCalc}

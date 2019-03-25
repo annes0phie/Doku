@@ -8,7 +8,7 @@ Die Variable \glqq status"' steuert die LED. Ein Ausgeben eines Tons wurde nicht
 	\caption{SOS Statemachine}
 	\label{fig:SOS_state}
 \end{figure}
-Für die Statemachine \glqq SOS"' wurden ebenfalls Unittests durchgeführt. Zum einen wird getestet, ob die Statemachine zu jedem Zeitpunkt x im richtigen State ist. Dafür wurde eine Debugvaribale \glqq statelocation"' eingeführt.\\
+Für die Statemachine \glqq SOS"' wurden ebenfalls Unittests durchgeführt. Es wird getestet, ob die Statemachine zu jedem Zeitpunkt x im richtigen State ist. Dafür wurde eine Debugvaribale \glqq statelocation"' eingeführt.\\
 Des Weiteren wird erfolgreich getestet, ob die Statemachine bei einem dauerhaften Failure aktiv bleibt.
 \begin{lstlisting}
 	@Test
