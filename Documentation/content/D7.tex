@@ -34,7 +34,7 @@ Es wird auch ein eigener Typ für die Modulooperation benötigt.
 \begin{lstlisting}
 type myint is integer 0 .. 1024;
 \end{lstlisting}
-Die Parameter sind gleich implementiert. Bei der Codegenerierung mit m = $2^{31}$ ist ein Fehler aufgetreten. Die Vermutung ist, dass dieser Wert zu groß ist. Deshalb wurde m auf $2^{10}$ gesetzt.
+Die Parameter sind gleich implementiert. Bei der Codegenerierung mit m = $2^{31}$ ist ein Fehler aufgetreten. Die Vermutung ist, dass dieser Wert für die Integerdarstellung zu groß ist. Deshalb wurde m auf $2^{10}$ gesetzt.
 \begin{lstlisting}
 class RandomGenerator {
 characteristic myint a = 89;
@@ -139,7 +139,7 @@ Die Mittelwertberechnung unterscheidet sich gar nicht vom Simulinkmodel und ist 
 	\caption{Mittelwertberechnung}
 	\label{fig:mittel}
 \end{figure}
-Die Abweichungsberechnung unterscheidet sich ebenfalls nicht vom Simulink Modell und ist ebenfalls wie in \autoref{fig:devCalc} in einem Submodul wie folgt umgesetzt.
+Die Abweichungsberechnung unterscheidet sich ebenfalls nicht vom Simulink Modell und ist ebenfalls wie in \autoref{fig:abweichung} in einem Submodul wie folgt umgesetzt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{../Graphiken/devCalc}

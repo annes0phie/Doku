@@ -1,24 +1,26 @@
 \chapter{Aufgabe D13}
 
 Wenn die Analyse nicht nur Geradeausfahrten sondern auch Kurvenfahrten miteinbeziehen soll, müssen wesentlich mehr Einflussfaktoren miteinbezogen werden, als bei der Geradeausfahrt.\\
-Wird eine Kurve durchfahren, so müssen die äußeren Räder eine weitere Strecke fahren als die Inneren. Dies wurde bereits bei Aufgabe D2 in \autoref{fig:velo_vs_sw} dargestellt. Das führt dazu, dass die Strecken, auch ohne unterschiedlichen Reifendruck, voneinander abweichen und einen nicht vorhandenen Fehler detektieren.\\
-Werden nun auch Kurvenfahrten betrachtet, so müssen die Drehwinkel $\Theta$ miteinbezogen werden. Anhand dieses Drehwinkels und dem Reifenabstand kann der äußere und innere Radius berechnet werden und somit auf die Auswirkung der Reifengeschwindigkeit geschlossen werden. \\
+Wird eine Kurve durchfahren, so müssen die äußeren Räder eine weitere Strecke fahren als die Inneren. Dies wurde bereits bei Aufgabe D2 in \autoref{fig:velo_vs_sw} dargestellt. Das führt dazu, dass die Strecken/Geschwindigkeiten, auch ohne unterschiedlichen Reifendruck, voneinander abweichen und einen nicht vorhandenen Fehler detektieren.\\
+Werden nun auch Kurvenfahrten betrachtet, so müssen die Drehwinkel $\Theta$ der Vorderreifen miteinbezogen werden. Anhand dieses Drehwinkels und dem Reifenabstand kann der äußere und innere Radius berechnet werden und somit auf die Auswirkung der Reifengeschwindigkeit geschlossen werden. \\
 
-Mit (5) folgt: $R_{rl} = \dfrac{B}{tan(\theta_{L}))}$\\
+Aus (5): $R_{rl} = \dfrac{B}{tan(\theta_{L}))}$\\
 
-Mit (7) folgt: $R_{rl} =  \dfrac{W}{\dfrac{V_{rr}}{V{rl}} -1}$\\
+Aus (7): $R_{rl} =  \dfrac{W}{\dfrac{V_{rr}}{V{rl}} -1}$\\
 
 \hspace*{2.5cm} $\dfrac{B}{tan(\theta_{L})} = \dfrac{W}{\dfrac{V_{rr}}{V_{rl}}-1}$\\
 
-\hspace*{2.5cm} $\dfrac{tan(\theta_{L})}{b} = \dfrac{\dfrac{V_{rr}}{V_{rl}} -1}{W}$\\
+\hspace*{2.5cm} $\dfrac{tan(\theta_{L})}{B} = \dfrac{\dfrac{V_{rr}}{V_{rl}} -1}{W}$\\
 
 \hspace*{2.5cm} $\dfrac{tan(\theta_{L})*W}{B} = \dfrac{V_{rr}}{V_{rl}}-1$\\
 
 \hspace*{2.5cm} $\dfrac{ tan(\theta_{L})*W}{B}+1 = \dfrac{V_{rr}}{V_{rl}}$\\
 
-\hspace*{2.5cm} $\dfrac{ tan(\theta_{L})*W*V_{rl}}{b}+V_{rl} = V_{rr}$  ( 11 )\\
- Die abweichende Radgeschwindigkeit müsste nun in der Berechnung der prozentualen Abweichungen beachtet werden.
- Die Vorderräder sollten nicht durch eine Kurve beeinflusst werden, da sie sich mit der Kurve mitdrehen.\\
+\hspace*{2.5cm} $\dfrac{ tan(\theta_{L})*W*V_{rl}}{B}+V_{rl} = V_{rr}'$  ( 11 )\\
+
+
+ Die abweichende Radgeschwindigkeit müsste nun in der Berechnung der prozentualen Abweichungen beachtet werden.\\
+ %Die Vorderräder sollten nicht durch eine Kurve beeinflusst werden, da sie sich mit der Kurve mitdrehen.\\
  Eine Implementierung wurde als zu aufwendig betrachtet, da es das System auf fundamentaler Ebene beeinträchtigt. Deswegen wurde entschieden ein robustes System zur Geradeausfahrt beizubehalten.
  
 % Mit den Radien $R_1$ (äußerer Radius) und $R_2$ (innerer Radius) kann die Strecke über die Formel $2*\Pi*R_i$ für die beiden Kreise berechnet werden. Nun muss anhand der Geschwindigkeit und der Zeit, die der Drehwinkel gehalten wird, berechnet werden, wie viel dieses Kreises durchfahren wird. Dieser Wert wird mit dem tatsächlich gefahrenem Wert verglichen. Gibt es zwischen den beiden Werten Abweichungen von mehr als 0,5\% so wird ein Fehler detektiert.
