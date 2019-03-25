@@ -5,7 +5,7 @@
 Die nachfolgenden Abbildungen zeigen das Simulink-Modell zur Berechnung der Distanzen der einzelnen Räder.\\
 Das Modell in \autoref{fig:drivingdistances1} hat die vier Geschwindigkeiten (in km/h) der Räder als Eingänge. Diese werden mit dem \glqq From Workspace"' Block mit ihrer zugehöhrigen Referenzzeit tv in das Model importiert.\\
 Danach werden sie in m/s umgerechnet und integriert, um die Strecke zu erhalten. \\
-Zur Simulation wird ein FixedStep von 0.01 mit dem ode3-Solver verwendet. Der ode-Solver wurde durch die SImulink \glqq automatic solver selection"' ausgewählt.
+Zur Simulation wird ein FixedStep von 0.01 mit dem ode3-Solver verwendet. Der ode-Solver wurde durch die Simulink \glqq automatic solver selection"' ausgewählt.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{../Graphiken/DrivingDistances1}

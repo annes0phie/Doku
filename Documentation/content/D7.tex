@@ -22,7 +22,7 @@ Der Driver ist ein Containermodell und enthält den Randomgenrator als Submodul.
 	\caption{ASCET Randomgenerator}
 	\label{fig:ASCETRandom}
 \end{figure}
-Dieser ist für jedes Rad einmal vorhanden. Eine Message sendet das jeweilige SIgnal weiter an andere Module.\\
+Dieser ist für jedes Rad einmal vorhanden. Eine Message sendet das jeweilige Signal weiter an andere Module.\\
 Die Implementierung unterscheidet sich kaum von Simulink. Eine setSeed Funktionalität wurde ergänzt.
 \begin{figure}[H]
 	\centering
@@ -55,14 +55,14 @@ Die Simulation berechnet, die Distanzen und Deltas in einem Submodul und schickt
 	\centering
 \includegraphics[width=1\linewidth]{../Graphiken/ModelSim}
 \caption{Simulation}
-\label{fig:Sim}
+\label{fig:Sim1}
 \end{figure}
 Im Submodul wird die Strecke durch Integration mit dem dT-Element für alle vier Räder berechnet.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\linewidth]{../Graphiken/integrate}
 	\caption{Streckenberechnung für Vornelinks}
-	\label{fig:Sim}
+	\label{fig:Sim2}
 \end{figure}
 Um das 10 Sekundendelta zu erhalten wird der gespeicherte Wert von vor 10 Sekunden abgezogen (auch für alle vier Reifen).
 \begin{figure}[H]
@@ -122,15 +122,15 @@ und die Prozentuale Abweichung für alle Räder berechnet.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../Graphiken/deviation}
-	\caption{Druckabweichungsberechnung für Vornelinks}
+	\caption{Druckabweichungsberechnung und Fehlererkennung}
 	\label{fig:abweichung}
 \end{figure}
 Abschließend werden die Ergebnisse aller vier Reifen verodert.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../Graphiken/or}
-	\caption{Streckenberechnung für Vornelinks}
-	\label{fig:Sim}
+	\caption{Fehlererkennung}
+	\label{fig:fehler}
 \end{figure}
 Die Mittelwertberechnung unterscheidet sich gar nicht vom Simulinkmodel und ist wie in \autoref{fig:Simittelm} in einem Submodul wie folgt umgesetzt.
 \begin{figure}[H]
@@ -139,7 +139,7 @@ Die Mittelwertberechnung unterscheidet sich gar nicht vom Simulinkmodel und ist 
 	\caption{Mittelwertberechnung}
 	\label{fig:mittel}
 \end{figure}
-Die Abweichungsberechnung unterscheidet sich ebenfalls nicht vom SImulink Modell und ist ebenfalls wie in \autoref{fig:abweichung} in einem Submodul wie folgt umgesetzt.
+Die Abweichungsberechnung unterscheidet sich ebenfalls nicht vom Simulink Modell und ist ebenfalls wie in \autoref{fig:devCalc} in einem Submodul wie folgt umgesetzt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{../Graphiken/devCalc}

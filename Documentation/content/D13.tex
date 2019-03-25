@@ -1,0 +1,6 @@
+\chapter{Aufgabe D13}
+
+Wenn die Analyse nicht nur Geradeausfahrten sondern auch Kurvenfahrten miteinbeziehen soll, müssen wesentlich mehr Einflussfaktoren miteinbezogen werden, als bei der Geradeausfahrt.\\
+Wird eine Kurve durchfahren, so müssen die äußeren Räder eine weitere Strecke fahren als die Inneren. Dies wurde bereits bei Aufgabe D2 in \autoref{fig:velo_vs_sw} dargestellt. Das führt dazu, dass die Strecken, auch ohne unterschiedlichen Reifendruck, voneinander abweichen und einen nicht vorhandenen Fehler detektieren.\\
+Werden nun auch Kurvenfahrten betrachtet, so müssen die Drehwinkel $\Theta$ miteinbezogen werden. Anhand dieses Drehwinkels und dem Reifenabstand kann der äußere und innere Radius berechnet werden. \\
+Mit den Radien $R_1$ (äußerer Radius) und $R_2$ (innerer Radius) kann die Strecke über die Formel $2*\Pi*R_i$ für die beiden Kreise berechnet werden. Nun muss anhand der Geschwindigkeit und der Zeit, die der Drehwinkel gehalten wird, berechnet werden, wie viel dieses Kreises durchfahren wird. Dieser Wert wird mit dem tatsächlich gefahrenem Wert verglichen. Gibt es zwischen den beiden Werten Abweichungen von mehr als 0,5\% so wird ein Fehler detektiert.
