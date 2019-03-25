@@ -15,4 +15,17 @@ Eingestellt werden kann für den Randomgenerator zum einen die Basisgeschwindigk
 	\label{fig:randomgeneratordata}
 \end{figure}
 Es wird deutlich, dass es keine Imbalancen bei diesem Beispiel gibt, auch bei anderen Basisgeschwindigkeiten und anderen Noiseleveln, die einer realistischen Geradeausfahrt entsprechen treten keine Imbalancen auf.\\
-Damit ist der konstruierte Randomgenerator gut geeignet, um Geradeausfahrten zu simulieren.
+Damit ist der konstruierte Randomgenerator gut geeignet, um Geradeausfahrten zu simulieren.\\
+
+Wird nun eine Basisgeschwindigkeit so manipuliert, dass die generierte Geschwindigkeit im 10 Sekundendurchschnitt über den 0.5\% liegt, so signalisiert der Tire Monitor eine Reifenimbalance. Als Beispiel haben hier drei Reifen eine Basisgeschwindigkeit von 100km/h, der abweichende Reifen hat eine Basisgeschwindigkeit von 100.7 km/h. Alle Signale Rauschen um 0.5 km/h in die positive und negative Richtung.\\
+Im Durchschnitt sollte also eine Geschwindigkeit aller vier Reifen von 100.175 km/h erreicht werden.Die Abweichung des abweichenden Reifen ist somit:
+$$
+\dfrac{|100.175-100.7|}{100.175} = 0.524\%
+$$
+Der Tire Monitor bestätigt dieses und zeugt eine Imbalance an.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\linewidth]{../Graphiken/RandomAbweichung}
+	\caption{Systemtest Funktionalität}
+	\label{fig:funkt}
+\end{figure}

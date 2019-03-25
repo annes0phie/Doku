@@ -1,38 +1,53 @@
 
 \chapter{Aufgabe D10}
-
-Der Code des Unittests für den \glqq Random Number Generator"' wird im Folgenden dargestellt.
-
+Ein Testen jedes Datenschritts wäre zu aufwendig, deswegen wird zum einen getestet, ob der erste Rechenschritt korrekt durchgeführt wird und ob per Definition verschiedene Zufallszahlen generiert werden.  Außerdem wird geprüft, ob mit gleichem Seed, die gleichen Zufallszahlen generiert werden und so die Ergebnisse für einen Systemtest reproduzierbar sind.
 \begin{lstlisting}
 package components;
+
 import assertLib.Assert;
+
 static class RandomGeneratorTest {
-	
-	RandomGenerator rg;
-	RingBuffer rb;
-	
-	@Test
-	public void generateFirstDatastep() {
-		real set_vel = 100.0;
+    
+    RandomGenerator randomGen;
+    RandomGenerator randomGen2;
+    RingBuffer buffer1;
+    RingBuffer buffer2;
+    real set_vel = 100.0;
 		real noiselevel = 5.0;
 		integer mySeed = 10;
-		real erg = rg.calc(set_vel, noiselevel, mySeed);
-		Assert.assertNear(erg, 96.1425781, 0.01);
-	}
-	
-	@Test
-	public void generateDifferentNumbers() {
-		real set_vel = 100.0;
-		real noiselevel = 5.0;
-		integer mySeed = 10;
-		for(i in 0 .. 99){
-			real erg = rg.calc(set_vel, noiselevel, mySeed);
-			rb.put(erg);
-			for(j in 1 .. 999){
-				real act = rb.getIndex(0);
-				Assert.assertNotEqual(act, rb.getIndex(j));
-			}
-		}
-	}
+    
+    @Test
+    public void generateFirstDataStep() {
+	    real erg = randomGen.calc(set_vel, noiselevel, mySeed);
+	    Assert.assertNear(erg, 96.14, 0.01);
+    }
+    
+    @Test
+    public void generateDifferentNumbers() {
+	    real actual;
+	    for(i in 0 .. 99){
+	        real erg = randomGen.calc(set_vel, noiselevel, mySeed);
+	        buffer1.put(erg);
+	        actual = buffer1.getIndex(0);
+	        for(j in 1 .. 999){
+	            	Assert.assertNotEqual(actual, buffer1.getIndex(j));
+	            }
+	        }
+    }
+    
+    @Test
+    public void reproducible(){
+	    for(i in 0 .. 999){
+	  
+	        buffer1.put(randomGen.calc(set_vel, noiselevel, mySeed));     
+	        buffer2.put(randomGen2.calc(set_vel, noiselevel, mySeed));
+	    }
+	    for(j in 0 .. 999){
+	        Assert.assertEqual(buffer1.getIndex(j),buffer2.getIndex(j));
+	    }
+    
+    }
 }
+
+
 \end{lstlisting}

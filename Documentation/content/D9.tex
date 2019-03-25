@@ -9,3 +9,23 @@ Die Variable \glqq status"' steuert die LED. Weitere Variablen sind ausschließl
 	\caption{SOS Statemachine}
 	\label{fig:SOS_state}
 \end{figure}
+Für die Statemachine \glqq SOS"' wurden ebenfalls Unittests durchgeführt. Zum einen wird getestet, ob die Statemachine zu jedem Zeitpunkt x im richtigen State ist, dafür wurde eine Debugvaribale \glqq statelocation"' eingeführt.\\
+Des Weiteren wird erfolgreich getestet, ob die Statemachine bei einem dauerhaften Failure aktiv bleibt.
+\begin{lstlisting}
+	@Test
+    public void checkAllStatelocationsAndStatesActiveContinues(){}
+  \end{lstlisting}
+  
+  
+  Außerdem, ob die Statemachine in den Off-State wechselt, sollte kein Failure nach einem vollständigem Durchlauf mehr vorliegen.
+\begin{lstlisting}
+    @Test
+    public void checkAllStatelocationsActiveContinuesNot(){}
+   \end{lstlisting} 
+   
+   
+  Zuletzt wird getestet, ob die Statemachine nicht dauerhaft läuft und solange kein Fehler anliegt im Off-State verweilt.
+   \begin{lstlisting}
+    @Test
+    public void checkAllStatesDeactiv(){}
+\end{lstlisting}

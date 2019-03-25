@@ -132,19 +132,18 @@ Abschließend werden die Ergebnisse aller vier Reifen verodert.
 	\caption{Streckenberechnung für Vornelinks}
 	\label{fig:Sim}
 \end{figure}
-Die Mittelwertberechnung unterscheidet sich gar nicht vom Simulinkmodel und ist wie in \autoref{mittel} in einem Submodul wie folgt umgesetzt.
-Die \autoref{fig:Model} berechnet die Strecken der einzelnen Räder. Dafür wird ein RingBuffer mit Werten befüllt. Dieser wurde mit folgendem Code umgesetzt.
+Die Mittelwertberechnung unterscheidet sich gar nicht vom Simulinkmodel und ist wie in \autoref{fig:Simittelm} in einem Submodul wie folgt umgesetzt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{../Graphiken/meanCalc}
 	\caption{Mittelwertberechnung}
-	\label{fig:Sim}
+	\label{fig:mittel}
 \end{figure}
 Die Abweichungsberechnung unterscheidet sich ebenfalls nicht vom SImulink Modell und ist ebenfalls wie in \autoref{fig:abweichung} in einem Submodul wie folgt umgesetzt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{../Graphiken/devCalc}
-	\caption{Mittelwertberechnung}
+	\caption{Abweichungsberechnung}
 	\label{fig:devCalc}
 \end{figure}
 Auf den Parameter noFailure wird in der Reset Funktionalität eingegangen.
