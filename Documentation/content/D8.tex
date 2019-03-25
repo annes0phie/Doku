@@ -133,7 +133,7 @@ static class RingBufferTest {
 \end{lstlisting}
 
 \section{SOS State}
-Für die Statemachine \glqq SOS State" wurden drei Unittests durchgeführt.\\
+Für die Statemachine \glqq SOS State"' wurden drei Unittests durchgeführt.\\
 In \glqq checkAllStatelocationsAndStatesActiveContinues"' wird der Parameter active = true gesetzt und bleibt über den gesamten Test auf true. Ist active = true so ist ein Fehler aufgetreten und der Off-State wird verlassen. In diesem Test werden alle Stati nacheinander durchlaufen, wie in R3 beschrieben. Nach jedem Statuswechsel wird anhand der Zeit überprüft, ob gerade der richtige Status aktiv ist. Nachdem der Zyklus einmal durchlaufen wurde, wird getestet, ob der Zyklus wieder von vorne beginnt, da active immer noch auf true ist.\\
 In \glqq checkAllStatelocationsActiveContinuesNot()"' wird der ganze Zyklus durchlaufen. Währenddessen wird active auf false gesetzt. Am Ende wird überpürft, ob man sich nach Abschluss des Zyklus im Off-Status befindet.\\
 In \glqq checkAllStatesDeactiv()"' ist der Parameter active=false. Es wird hier nach einer bestimmten Zeit überprüft, ob der Off-Status aktiv ist.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.22)  25 MAR 2019 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.22)  25 MAR 2019 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2940,10 +2940,10 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49459 strings out of 492649
- 929404 string characters out of 6129621
+ 49458 strings out of 492649
+ 929387 string characters out of 6129621
  1665492 words of memory out of 5000000
- 51954 multiletter control sequences out of 15000+600000
+ 51953 multiletter control sequences out of 15000+600000
  596343 words of font info for 118 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,20n,80p,10400b,3296s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2966,7 +2966,7 @@ dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
 ublic/lm/lmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lm
 tk10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (39 pages, 2578139 bytes).
+Output written on dokumentation.pdf (39 pages, 2578129 bytes).
 PDF statistics:
  996 PDF objects out of 1000 (max. 8388607)
  839 compressed objects within 9 object streams
